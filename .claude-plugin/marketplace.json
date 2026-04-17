@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bob-is-unable",
+  "description": "Never run out of tokens. Proactive context management, session handoff, and restoration for Claude Code.",
+  "owner": {
+    "name": "Synckser",
+    "url": "https://github.com/Synckser"
+  },
+  "plugins": [
+    {
+      "name": "bob-is-unable",
+      "description": "Never run out of tokens. /bob command + 5-phase protocol: monitor, compress, handoff, compact, restore.",
+      "source": "./plugins/bob-is-unable/",
+      "category": "productivity"
+    }
+  ]
+}
