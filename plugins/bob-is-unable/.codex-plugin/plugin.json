@@ -1,0 +1,24 @@
+{
+  "name": "bob-is-unable",
+  "version": "1.0.0",
+  "description": "Never run out of tokens. Proactive context management, session handoff, and restoration for Claude Code.",
+  "author": {
+    "name": "Synckser",
+    "url": "https://github.com/Synckser"
+  },
+  "homepage": "https://github.com/Synckser/BOB-IS-YOUR-UNCLE-",
+  "repository": "https://github.com/Synckser/BOB-IS-YOUR-UNCLE-",
+  "license": "MIT",
+  "keywords": ["context", "tokens", "memory", "handoff", "compaction", "session"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bob Is Unable",
+    "shortDescription": "Never run out of tokens. Proactive context management and session handoff.",
+    "longDescription": "Prevents Claude Code token exhaustion through proactive compaction at 60%, CLAUDE.md compression, structured session handoff, and restoration protocols. Includes /bob command for instant context health checks.",
+    "developerName": "Synckser",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "websiteURL": "https://github.com/Synckser/BOB-IS-YOUR-UNCLE-",
+    "brandColor": "#EF4444"
+  }
+}
