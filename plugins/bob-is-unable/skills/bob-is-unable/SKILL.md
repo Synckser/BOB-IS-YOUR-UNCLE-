@@ -19,6 +19,19 @@ NEVER let context exceed 60%. Act at 50%. Panic at 70%.
 
 ---
 
+## V2 Two-Model Protocol
+
+1. **Plan phase** — `/model claude-opus-4-7` → `/bob-plan` → save plan
+2. **Execute phase** — `/model claude-haiku-4-5-20251001` → `/bob-code <plan>` → mechanical execution
+3. **Handoff phase** — `/bob-handoff` at 50% context → `/compact` with handoff summary
+4. **Restore phase** — new session → "Read ~/.claude/session-handoff.md and resume"
+
+Hooks auto-warn at 50/60/70% thresholds. Trust hooks.
+
+See `model-routing.md` for which model per task type.
+
+---
+
 ## Context Thresholds
 
 | Context Used | Status | Action |

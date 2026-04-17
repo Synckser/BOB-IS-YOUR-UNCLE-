@@ -1,7 +1,7 @@
 {
   "name": "bob-is-unable",
-  "version": "1.0.0",
-  "description": "Never run out of tokens. Proactive context management, session handoff, and restoration for Claude Code.",
+  "version": "2.0.0",
+  "description": "Never run out of tokens. v2: hooks, two-model routing (plan=opus, code=haiku), auto-handoff.",
   "author": {
     "name": "Synckser",
     "url": "https://github.com/Synckser"
